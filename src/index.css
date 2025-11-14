@@ -1,5 +1,44 @@
 @import "tailwindcss";
 
+@theme {
+  /* ---------- PRIMARY ---------- */
+  --color-primary-25: rgba(247, 248, 249, 1);
+  --color-primary-50: rgba(238, 241, 244, 1);
+  --color-primary-75: rgba(230, 235, 238, 1);
+  --color-primary-100: rgba(222, 228, 232, 1);
+  --color-primary-150: rgba(205, 214, 221, 1);
+  --color-primary-200: rgba(188, 201, 209, 1);
+  --color-primary-300: rgba(155, 173, 187, 1);
+  --color-primary-400: rgba(121, 146, 164, 1);
+  --color-primary: rgba(121, 146, 164, 1);
+  --color-primary-600: rgba(70, 95, 113, 1);
+  --color-primary-700: rgba(53, 71, 85, 1);
+  --color-primary-750: rgba(44, 60, 71, 1);
+  --color-primary-800: rgba(35, 48, 56, 1);
+  --color-primary-850: rgba(26, 36, 42, 1);
+  --color-primary-900: rgba(18, 24, 28, 1);
+  --color-primary-925: rgba(13, 18, 21, 1);
+  --color-primary-950: rgba(9, 12, 14, 1);
+
+  /* ---------- SECONDARY ---------- */
+  --color-secondary: rgba(231, 199, 127, 1);
+
+  /* ---------- TEXT ---------- */
+  --color-txt: rgba(194, 202, 208, 1);
+
+  /* ---------- SUCCESS ---------- */
+  --color-success: rgba(19, 180, 113, 1);
+
+  /* ---------- ERROR ---------- */
+  --color-error: rgba(229, 57, 53, 1);
+
+  /* ---------- WARNING ---------- */
+  --color-warning: rgba(255, 167, 38, 1);
+
+  /* ---------- DISABLED ---------- */
+  --color-disabled: rgba(194, 202, 208, 1);
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
